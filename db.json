@@ -1,0 +1,223 @@
+{
+  "usuarios": [
+    {
+      "id": "88d3",
+      "email": "davidm435465123@gmail.com",
+      "name": "David Murcia",
+      "phone": "3103220039",
+      "password": "david123",
+      "role": "cliente",
+      "estado": "activo"
+    },
+    {
+      "id": "1e6c",
+      "name": "Hills",
+      "email": "hills@gmail.com",
+      "phone": "3103220021",
+      "password": "David123",
+      "role": "tienda",
+      "estado": "activo"
+    },
+    {
+      "id": "774a",
+      "email": "juan@gmail.com",
+      "name": "Juan Esteban",
+      "phone": "3103229931",
+      "password": "juan123",
+      "role": "cliente",
+      "estado": "activo"
+    },
+    {
+      "id": "9ce6",
+      "email": "daniel@gmail.com",
+      "name": "Daniel Sebastian",
+      "phone": "3103229931",
+      "password": "daniel123",
+      "role": "cliente",
+      "estado": "activo"
+    },
+    {
+      "id": "266c",
+      "name": "Royal Canin",
+      "email": "royalcanin@gmail.com",
+      "phone": "3165123313",
+      "password": "royalcanin12",
+      "role": "tienda",
+      "estado": "activo"
+    },
+    {
+      "id": "1b63",
+      "name": "Chunky",
+      "email": "chunky@gmail.com",
+      "phone": "31253112283",
+      "password": "chunky12",
+      "role": "tienda",
+      "estado": "activo"
+    }
+  ],
+  "productos": [
+    {
+      "id": "f30b",
+      "nombre": "Alimento Para Perro Hills Adulto Small and Mini - 4.5 Lb",
+      "precio": "87.465",
+      "descripcion": "El alimento seco para perros Hill's Science Diet Adult Small Paws Receta de harina de pollo y arroz es un alimento seco para perros de razas miniatura, está balanceado con precisión y es fácil de digerir, con proteínas de alta calidad y calcio para dar soporte a los músculos y huesos de su perro pequeño. Proporciona una mezcla de antioxidantes clínicamente comprobada con vitaminas C y E para asegurar un sistema inmunológico fuerte, además de ácidos grasos oemga-6 y vitamina E para un pelaje lustroso y piel sana.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/158575-505-505/Hills-C-Adulto-Y-Toy-Breed-POLLO.jpg?v=637052104442230000",
+      "categoria": "Alimentos",
+      "marca": "Hills",
+      "cantidad": 100,
+      "estado": "activo"
+    },
+    {
+      "id": "f06e",
+      "nombre": "Alimento Para Perro Hills Adulto Small Bites Dry - 15 Lb",
+      "precio": "220.915",
+      "descripcion": "Este alimento premium seco para perros está hecho con pollo verdadero como ingrediente #1 para ayudar a desarrollar músculos fuertes y magros y para mantener un peso corporal ideal. Contiene una mezcla exclusiva de ácidos grasos omega-6 y otros nutrientes para mejorar la salud de la piel y pelaje. También proporciona una mezcla antioxidante clínicamente comprobada para favorecer un sistema inmunológico sano. Y como todos los alimentos secos Hill’s Science Diet, Adult Small Bites no contiene colores, sabores o conservadores artificiales.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/164714-1000-1000/52742020488-1.jpg?v=637316564482000000",
+      "categoria": "Alimentos",
+      "marca": "Hills",
+      "cantidad": 100,
+      "estado": "activo"
+    },
+    {
+      "id": "8ac0",
+      "nombre": "Alimento Para Perro Hills Weight Reduction R/D Dry - 1.5 Kg",
+      "precio": "103.900",
+      "descripcion": "Como la epidemia en humanos, casi el 50% de la población de mascotas tiene exceso de peso. Inclusive un poco de peso de más puede impactar en la calidad de vida de la mascota y su relación con la familia porque puede reducir el tiempo de juego, impactar en su movilidad y la salud de su perro a largo plazo.\nLos nutriólogos y veterinarios de Hill’s desarrollaron la nutrición clínica Prescription Diet® r/d® formulado especialmente para apoyar en el manejo del peso de su perro. De hecho, r/d es nutrición clínicamente comprobada para una disminución sana de peso en tan sólo 8 semanas",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/156251-1000-1000/52742001210.jpg?v=636809220803770000",
+      "categoria": "Alimentos",
+      "marca": "Hills",
+      "cantidad": "60",
+      "estado": "activo"
+    },
+    {
+      "id": "24fb",
+      "nombre": "Snack Para Perro Hills Adult Hypo-Treats - 340 Gr",
+      "precio": "61.900",
+      "descripcion": "Snacks o premios para perros con sensibilidades alimentarias y condiciones cutáneas en perros.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/156413-1000-1000/52742014555.jpg?v=636809410978230000",
+      "categoria": "Snacks",
+      "marca": "Hills",
+      "cantidad": "72",
+      "estado": "activo"
+    },
+    {
+      "id": "6762",
+      "nombre": "Snack Para Perro Hills Treats Chicken - 3 Oz",
+      "precio": "26.900",
+      "descripcion": "Hill's Science Diet Soft and Chewy Training Treats con pollo verdadero son premios naturales hechos con solamente los mejores ingredientes. Sin maíz, ni colores o sabores artificiales. Hechos con pollo verdadero por la proteína que desarrolla y mantiene los músculos magros.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/156414-1000-1000/52742187907.jpg?v=636809410981530000",
+      "categoria": "Snacks",
+      "marca": "Hills",
+      "cantidad": "45",
+      "estado": "activo"
+    },
+    {
+      "id": "dff7",
+      "nombre": "Alimento Para Perro Royal Canin VHN Hydrolyzed Protein Small Dog - 4 Kg",
+      "precio": "279.900",
+      "descripcion": "Alimento seco medicado para perros adultos entre 1 y 10 kg con reacción adversa al alimento con signos dermatológicos o gastrointestinales, dermatitis atópica canina + Prurito crónico, diarrea crónica, enfermedad inflamatoria intestinal, insuficiencia pancreática exocrine y Disbiosis intestinal.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/174591-1000-1000/hydrolyzed-protein-small-dog.png?v=637643152260830000",
+      "categoria": "Alimentos",
+      "marca": "Royal Canin",
+      "cantidad": "120",
+      "estado": "activo"
+    },
+    {
+      "id": "dfdd",
+      "nombre": "Alimento Para Perro Royal Canin Bhn Pomeranian - 1.5 Kg",
+      "precio": "94.900",
+      "descripcion": "Alimento diseñado para satisfacer las necesidades nutricionales de los adultos de raza Pomerania a partir de los 10 meses.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/171860-1000-1000/3182550908443-01.png?v=637534394180300000",
+      "categoria": "Alimentos",
+      "marca": "Royal Canin",
+      "cantidad": "132",
+      "estado": "activo"
+    },
+    {
+      "id": "6159",
+      "nombre": "Alimento Para Perro Royal Canin VDC Hydrolyzed Protein - 8 Kg",
+      "precio": "487.900",
+      "descripcion": "Alimento seco para perros adultos con una reacción adversa al alimento.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/173026-1000-1000/hydrolyzed-protein-dog.png?v=637578278281830000",
+      "categoria": "Alimentos",
+      "marca": "Royal Canin",
+      "cantidad": "45",
+      "estado": "activo"
+    },
+    {
+      "id": "ef1f",
+      "nombre": "Alimento Para Perro Chunky Adulto Nuggets Pollo - 2 kg",
+      "precio": "18.900",
+      "descripcion": "Verdadera carne de pollo como fuente principal de proteina y nuggets rellenos con pollo. dh pack que brinda proteccion integral para el tracto gastrointestinal.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166729-1000-1000/EAN-7707205156855.jpg?v=637353519327230000",
+      "categoria": "Alimentos",
+      "marca": "Chunky",
+      "cantidad": "110",
+      "estado": "activo"
+    },
+    {
+      "id": "c292",
+      "nombre": "Alimento Para Perro Chunky Adulto Cordero - 1.5 Kg",
+      "precio": "28.900",
+      "descripcion": "Verdadera carne de cordero y salmon como principales fuentes de proteina. salmon como fuente de acidos grasos epa y dha. ideal para perros con piel sensible",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166768-1000-1000/EAN-7707205151560.jpg?v=637353519471900000",
+      "categoria": "Alimentos",
+      "cantidad": "250",
+      "marca": "Chunky",
+      "estado": "activo"
+    },
+    {
+      "id": "d420",
+      "nombre": "Alimento Para Perro Chunky Adulto Razas Pequeñas - 1.5 Kg",
+      "precio": "16.900",
+      "descripcion": "Alimento seco para perros adultos de razas pequeñas",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166733-1000-1000/EAN-7707205154134.jpg?v=637353519344600000",
+      "categoria": "Alimentos",
+      "cantidad": "85",
+      "marca": "Chunky",
+      "estado": "activo"
+    },
+    {
+      "id": "ba2c",
+      "nombre": "Alimento Para Gato Chunky Salmón Y Cordero - 1.5 Kg",
+      "precio": "24.900",
+      "descripcion": "Hecho con carne de verdad de salmon y cordero, control de bolas de pelo y garantiza la acidez del ph urinario.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166730-1000-1000/EAN-7707205154998.jpg?v=637353519332730000",
+      "categoria": "Alimentos",
+      "cantidad": "80",
+      "estado": "activo",
+      "marca": "Chunky"
+    },
+    {
+      "id": "3f51",
+      "nombre": "Alimento Para Gato Chunky Pollo - 1.5 Kg",
+      "precio": "24.900",
+      "descripcion": "Hecho con verdadera carne de pollo, control de bolas de pelo y garantiza la acidez del ph urinario.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166732-1000-1000/EAN-7707205154929.jpg?v=637353519340070000",
+      "categoria": "Alimentos",
+      "cantidad": "120",
+      "marca": "Chunky"
+    },
+    {
+      "id": "777f",
+      "nombre": "Snack Para Perro Chunky Delidog Mix - 280 Gr",
+      "precio": "16.900",
+      "descripcion": "Deliciosas gomitas para dar como premio a tu perro.",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166737-1000-1000/EAN-7707205153519.jpg?v=637353519361830000",
+      "categoria": "Snacks",
+      "cantidad": "92",
+      "marca": "Chunky"
+    },
+    {
+      "id": "cd3f",
+      "nombre": "Snack Para Perro Chunky Delidog Dent - 150 Gr",
+      "precio": "8.900",
+      "descripcion": "La salud oral de tu mascota inicia por el tipo de alimento que suministras, 1 o 2 barras de delidog dent al día ayduan a disminuir la formación de sarro. que sus aventuras mantengan una gran sonrisa mientras evitas enfermedades periodontales",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166735-1000-1000/EAN-7707205153502.jpg?v=637353519354030000",
+      "categoria": "Snacks",
+      "cantidad": "80",
+      "estado": "activo",
+      "marca": "Chunky"
+    }
+  ]
+}
