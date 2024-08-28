@@ -9,6 +9,7 @@ const ShopDashboard = () => {
   // Obtén el nombre del usuario desde localStorage
   const name = localStorage.getItem('name') || '';
 
+
   // Obtén los productos registrados por la tienda
   const fetchProductos = async () => {
     try {
@@ -32,6 +33,7 @@ const ShopDashboard = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="bg-white p-6 shadow-md rounded-lg mb-8">
         <h2 className="text-2xl font-bold mb-2">¡Bienvenido, {name}!</h2>
+
         <p className="text-gray-700">
           Este es tu dashboard, donde puedes registrar nuevos productos, consultar los productos existentes y modificarlos según sea necesario.
         </p>

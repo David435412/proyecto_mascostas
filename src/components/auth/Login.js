@@ -27,12 +27,14 @@ const Login = () => {
 
             const user = response.data[0];
             if (user) {
-                
-                localStorage.setItem('userId', user.id); 
+                // Guardar datos del usuario en localStorage
+                localStorage.setItem('id', user.id); 
                 localStorage.setItem('role', user.role);
                 localStorage.setItem('name', user.name); 
+                localStorage.setItem('email', user.email); 
+                localStorage.setItem('phone', user.phone); 
 
-              
+                // Redirigir según el rol del usuario
                 if (user.role === 'cliente') {
                     alert("Ingreso exitoso");
                     navigate('/');
@@ -40,6 +42,7 @@ const Login = () => {
                     alert("Ingreso exitoso");
                     navigate('/tienda');
                 }
+                
                 window.location.reload();
             } else {
                 setError('Correo o contraseña incorrectos. Inténtalo de nuevo.');

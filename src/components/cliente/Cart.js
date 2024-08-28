@@ -85,17 +85,21 @@ const Carrito = () => {
                     </table>
                     <div className="mt-6 flex justify-between items-center">
                         <h2 className="text-xl font-semibold">Subtotal: ${calcularTotal()}</h2>
-                        <Link 
-                        to="/formulario-pedido" 
-                        className="px-8 py-4 bg-gradient-to-r from-green-700 to-green-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg"
-                        >Proceder al Pago</Link>
+                        <Link
+                            to="/formulario-pedido"
+                            className="px-8 py-4 bg-gradient-to-r from-green-700 to-green-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg"
+                            onClick={() => localStorage.setItem('pedidoActual', JSON.stringify(carrito))}
+                        >
+                            Proceder al Pago
+                        </Link>
+
                     </div>
                 </div>
             )}
             <div className="mt-6 text-center">
-                <Link 
-                to="/productos" 
-                className="px-8 py-4 bg-gradient-to-r from-violet-500 to-gray-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg"
+                <Link
+                    to="/productos"
+                    className="px-8 py-4 bg-gradient-to-r from-violet-500 to-gray-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg"
                 >Seguir Comprando
                 </Link>
             </div>

@@ -219,5 +219,43 @@
       "estado": "activo",
       "marca": "Chunky"
     }
+  ],
+  "pedidos": [
+    {
+      "id": "478c",
+      "cliente": {
+        "nombre": "David Murcia",
+        "telefono": "3103220039",
+        "correo": "davidm435465123@gmail.com"
+      },
+      "productos": [
+        {
+          "id": "f30b",
+          "nombre": "Alimento Para Perro Hills Adulto Small and Mini - 4.5 Lb",
+          "precio": "87.465",
+          "descripcion": "El alimento seco para perros Hill's Science Diet Adult Small Paws Receta de harina de pollo y arroz es un alimento seco para perros de razas miniatura, está balanceado con precisión y es fácil de digerir, con proteínas de alta calidad y calcio para dar soporte a los músculos y huesos de su perro pequeño. Proporciona una mezcla de antioxidantes clínicamente comprobada con vitaminas C y E para asegurar un sistema inmunológico fuerte, además de ácidos grasos oemga-6 y vitamina E para un pelaje lustroso y piel sana.",
+          "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/158575-505-505/Hills-C-Adulto-Y-Toy-Breed-POLLO.jpg?v=637052104442230000",
+          "categoria": "Alimentos",
+          "marca": "Hills",
+          "cantidad": 3,
+          "estado": "activo"
+        },
+        {
+          "id": "24fb",
+          "nombre": "Snack Para Perro Hills Adult Hypo-Treats - 340 Gr",
+          "precio": "61.900",
+          "descripcion": "Snacks o premios para perros con sensibilidades alimentarias y condiciones cutáneas en perros.",
+          "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/156413-1000-1000/52742014555.jpg?v=636809410978230000",
+          "categoria": "Snacks",
+          "marca": "Hills",
+          "cantidad": 2,
+          "estado": "activo"
+        }
+      ],
+      "direccion": "Calle 132 c Numero 137 -15",
+      "estado": "activo",
+      "estadoEntrega": "pendiente",
+      "montoTotal": 386.195
+    }
   ]
 }

@@ -9,15 +9,16 @@ import Home from './pages/Home';
 import Login from './components/auth/Login';
 import RegistroCliente from './components/auth/RegistroCliente';
 import RegistroTienda from './components/auth/RegistroTienda';
-import ProductosPagina from './pages/ProductosPagina';
+import ProductosPagina from './components/cliente/ProductosPagina';
 import DetalleProducto from './components/cliente/DetallesProducto';
-import TiendaDash from './pages/TiendaDash';
+import TiendaDash from './components/tienda/TiendaDash';
 import Cart from './components/cliente/Cart';
+import FormularioPedido from './components/cliente/pedido/FormularioPedido'
 import GestionProductos from './components/tienda/GestionProductos';
 import RegistroProducto from './components/tienda/RegistroProducto';
 import EditarProducto from './components/tienda/EdicionProductos';
 import ProductosInactivos from './components/tienda/ProductosInactivos';
-import FormularioPedido from './components/cliente/FormularioPedido'
+
 
 const App = () => {
     const { role } = useContext(UserContext);
@@ -45,7 +46,7 @@ const App = () => {
                         <Route path="/productos" element={<ProductosPagina />} />
                         <Route path="/producto/:id" element={<DetalleProducto />} />   
                         <Route path="/tienda" element={<TiendaDash />} />   
-                        <Route path="/carrito" element={<Cart />} />
+                        <Route path="/carrito" element={<Cart />} />                 
                         <Route path="/gestion-productos" element={<GestionProductos />} />
                         <Route path="/registro-producto" element={<RegistroProducto />} />
                         <Route path="/editar-producto/:id" element={<EditarProducto />} />
